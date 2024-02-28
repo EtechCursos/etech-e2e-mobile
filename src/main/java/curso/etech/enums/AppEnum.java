@@ -37,7 +37,6 @@ public enum AppEnum implements AppInt {
             capabilities.setCapability("build", "E2E Mobile");
             capabilities.setCapability("deviceName", "Device Farm E.Tech");
             capabilities.setCapability("name", "Testes E2E");
-            capabilities.setCapability("browserstack.debug", "true");
             return new AndroidDriver(new URL("https://etechmentoria1:BcMQk3BJ7g8thgX45qM3@hub-cloud.browserstack.com/wd/hub"), capabilities);
         }
     };
