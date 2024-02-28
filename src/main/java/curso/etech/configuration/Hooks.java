@@ -13,7 +13,7 @@ public class Hooks extends BaseTest {
 
     @Before
     public void before() throws MalformedURLException {
-        super.inicializarDriver(AppEnum.ANDROID_FARM);
+        super.inicializarDriver(AppEnum.ANDROID);
     }
 
     @After

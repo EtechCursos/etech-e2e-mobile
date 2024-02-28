@@ -13,7 +13,7 @@ public enum AppEnum implements AppInt {
         @Override
         public AndroidDriver getDriver() throws MalformedURLException {
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            StaticVariables.setDevice("emulator-5554");
+            StaticVariables.setDevice("RQCT103ZMAA");
             capabilities.setCapability("deviceName", "Emulador E.Tech");
             capabilities.setCapability("automationName", "UiAutomator2");
             capabilities.setCapability("udid", StaticVariables.getDevice());
