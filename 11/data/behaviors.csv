@@ -1,5 +1,5 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","","","0","3","1","0","0"
 "","Cadastro conteudo","Validar o cadastro de um novo conteudo","0","2","0","0","0"
+"","Cadastro de um usuário","Validar o cadastro de um novo usuário","0","1","0","0","0"
 "","Login","Validar login na aplicação","0","0","1","0","0"
-"","","","0","2","2","0","0"
-"","Cadastro de um usuário","Validar o cadastro de um novo usuário","0","0","1","0","0"
