@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed May 08 22:46:48 GMT 2024","Wed May 08 22:47:40 GMT 2024","51832","","Cadastro conteudo","","Validar o cadastro de um novo conteudo","","Validar o cadastro de um novo conteudo",""
+"broken","Wed May 08 22:47:40 GMT 2024","Wed May 08 22:48:23 GMT 2024","43427","","","","","","Validar o cadastro de um novo conteudo #2",""
+"broken","Wed May 08 22:47:40 GMT 2024","Wed May 08 22:48:23 GMT 2024","43418","","Cadastro conteudo","","Validar o cadastro de um novo conteudo","","Validar o cadastro de um novo conteudo",""
+"broken","Wed May 08 22:46:48 GMT 2024","Wed May 08 22:47:40 GMT 2024","51937","","","","","","Validar o cadastro de um novo conteudo #1",""
