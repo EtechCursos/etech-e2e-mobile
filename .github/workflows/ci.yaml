@@ -5,6 +5,6 @@ on:
   workflow_dispatch:
 jobs:
   mvn-run:
-    uses: EtechCursos/workflow-calls/.github/wrokflows/java-e2e-testes.yaml@main
+    uses: EtechCursos/workflow-calls/.github/workflows/java-e2e-testes.yaml@main
     secrets:
       git_token: ${{ secrets.TOKEN }}
