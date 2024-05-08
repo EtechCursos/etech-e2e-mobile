@@ -31,7 +31,7 @@ public enum AppEnum implements AppInt {
         public AndroidDriver getDriver() throws MalformedURLException {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("os_version", "13.0");
-            capabilities.setCapability("device", "Samsung Galaxy S23 Ultra");
+            capabilities.setCapability("device", "Samsung Galaxy S23");
             capabilities.setCapability("app", "bs://7c87e7551c81dc522420a472c4c6889137dd0c28");
             capabilities.setCapability("project", "E2E Mobile");
             capabilities.setCapability("build", "E2E Mobile");
