@@ -32,15 +32,14 @@ public enum AppEnum implements AppInt {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             StaticVariables.setDevice("device-farm");
             capabilities.setCapability("os_version", "13.0");
-            capabilities.setCapability("device", "Samsung Galaxy S23 Ultra");
-            capabilities.setCapability("app", "bs://5402d02f2a5ea3ead9127bc361af84d3415ee603");
+            capabilities.setCapability("device", "Samsung Galaxy S23");
+            capabilities.setCapability("app", "bs://21d32368f821bfb7ef6634560c410da22e4d2495");
             capabilities.setCapability("project", "E2E Mobile");
             capabilities.setCapability("build", "E2E Mobile");
             capabilities.setCapability("deviceName", "Device Farm E.Tech");
             capabilities.setCapability("name", "Testes E2E");
             capabilities.setCapability("autoGrantPermissions", "true");
-            capabilities.setCapability("browserstack.uploadMedia", new String[]{"media://dacc1208b8899fe415cf227eb0ceeb4345f75c09"});
-            return new AndroidDriver(new URL("https://guilhermeteixeir_YC9nQk:pfT4yp2Z93VsYziQteLs@hub-cloud.browserstack.com/wd/hub"), capabilities);
+            return new AndroidDriver(new URL("https://guilhermeteixeir_Uu6lm9:ZjxU2cYizz32Wwu48YpK@hub-cloud.browserstack.com/wd/hub"), capabilities);
         }
     };
 
