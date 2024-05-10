@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
                 features = {"src/test/resources/features/"},
                 glue = {"curso.etech.steps", "curso.etech.configuration"},
                 plugin = {"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}, monochrome = true,
-                tags = "@smokeTest")
+                tags = "@novoConteudo")
 
 public class RunTest {
 }

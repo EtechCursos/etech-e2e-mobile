@@ -1,4 +1,4 @@
-package curso.etech.enums;
+package curso.etech;
 
 import curso.etech.common.StaticVariables;
 import curso.etech.interfaces.AppInt;
@@ -13,7 +13,7 @@ public enum AppEnum implements AppInt {
         @Override
         public AndroidDriver getDriver() throws MalformedURLException {
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            StaticVariables.setDevice("RQCT103ZMAA");
+            StaticVariables.setDevice("emulator-5554");
             capabilities.setCapability("deviceName", "Emulador E.Tech");
             capabilities.setCapability("automationName", "UiAutomator2");
             capabilities.setCapability("udid", StaticVariables.getDevice());
@@ -30,14 +30,17 @@ public enum AppEnum implements AppInt {
         @Override
         public AndroidDriver getDriver() throws MalformedURLException {
             DesiredCapabilities capabilities = new DesiredCapabilities();
+            StaticVariables.setDevice("device-farm");
             capabilities.setCapability("os_version", "13.0");
-            capabilities.setCapability("device", "Samsung Galaxy S23 Ultra");
-            capabilities.setCapability("app", "bs://aee2a789cbfe04a1fbc96b2f8ebcffe813a2f0a9");
+            capabilities.setCapability("device", "Samsung Galaxy S23");
+            capabilities.setCapability("app", "bs://21d32368f821bfb7ef6634560c410da22e4d2495");
             capabilities.setCapability("project", "E2E Mobile");
             capabilities.setCapability("build", "E2E Mobile");
             capabilities.setCapability("deviceName", "Device Farm E.Tech");
             capabilities.setCapability("name", "Testes E2E");
-            return new AndroidDriver(new URL("https://etechmentoria1:BcMQk3BJ7g8thgX45qM3@hub-cloud.browserstack.com/wd/hub"), capabilities);
+            capabilities.setCapability("autoGrantPermissions", "true");
+            capabilities.setCapability("browserstack.uploadMedia", new String[]{"media://4958803b38d810bfbc6ceee73c715a741df9cddb"});
+            return new AndroidDriver(new URL("https://guilhermeteixeir_Uu6lm9:ZjxU2cYizz32Wwu48YpK@hub-cloud.browserstack.com/wd/hub"), capabilities);
         }
     };
 
