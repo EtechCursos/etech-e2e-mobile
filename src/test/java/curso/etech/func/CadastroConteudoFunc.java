@@ -71,7 +71,9 @@ public class CadastroConteudoFunc {
 
 
     private void realizarUploadImagem() throws IOException {
-        driver.pushFile("/sdcard/Pictures/LOGO.png", new File(System.getProperty("user.dir") + "\\LOGO.png"));
+        if(!StaticVariables.getDevice().equals("device-farm")) {
+            driver.pushFile("/sdcard/Pictures/LOGO.png", new File(System.getProperty("user.dir") + "\\LOGO.png"));
+        }
         cadastroConteudoPage.getUploadImagem().click();
         if (StaticVariables.getDevice().contains("emulator")){
             cadastroConteudoPage.getSelecaoPictures().click();
