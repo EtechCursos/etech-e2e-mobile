@@ -18,5 +18,5 @@ Funcionalidade: Cadastro conteudo
     Exemplos:
       | conteudo | mensagem                        |
       | "filme"  | "Filme cadastrado com sucesso!" |
-#      | "serie"  | "Série cadastrada com sucesso!" |
+      | "serie"  | "Série cadastrada com sucesso!" |
 
