@@ -1,5 +1,6 @@
 package curso.etech.configuration;
 
+import curso.etech.AppEnum;
 import curso.etech.common.BaseTest;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -12,7 +13,7 @@ public class Hooks extends BaseTest {
 
     @Before
     public void before() throws MalformedURLException {
-        super.inicializarDriver();
+        super.inicializarDriver(AppEnum.ANDROID_FARM);
     }
 
     @After
